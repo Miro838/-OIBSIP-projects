@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slak Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn" id="signUpBtn">Sign Up</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to UR PLACE</h1>
+            <p>Your ultimate solution for team collaboration and communication.</p>
+            <div class="quick-info">
+                <div class="info-box">
+                    <i class="fas fa-users fa-2x"></i>
+                    <h4>Connect</h4>
+                    <p>Engage your team instantly with real-time messaging.</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-file-upload fa-2x"></i>
+                    <h4>Share</h4>
+                    <p>Quickly exchange files, images, and project updates.</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-chart-line fa-2x"></i>
+                    <h4>Grow</h4>
+                    <p>Track your progress and manage tasks seamlessly.</p>
+                </div>
+            </div>
+            <button class="btn" id="ctaBtn">Get Started</button>
+        </div>
+        <div class="scroll-indicator">
+            <p>Scroll Down</p>
+            <i class="fas fa-angle-down fa-2x"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <i class="fas fa-comments fa-2x"></i>
+                <h3>Real-time Messaging</h3>
+                <p>Communicate with your team instantly.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-share-square fa-2x"></i>
+                <h3>File Sharing</h3>
+                <p>Share documents, images, and more easily.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-tasks fa-2x"></i>
+                <h3>Task Management</h3>
+                <p>Organize and track your projects effortlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-item">
+                <p>"Slak has transformed the way our team communicates. It's an indispensable tool!"</p>
+                <h4>John Doe, Project Manager</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"A must-have for any organization looking to boost productivity and collaboration."</p>
+                <h4>Jane Smith, Team Lead</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"Efficient, user-friendly, and packed with features that enhance our workflow."</p>
+                <h4>Chris Lee, Developer</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MK. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up for Slak</h2>
+            <p>Join us today and revolutionize your team's communication.</p>
+            <input type="email" placeholder="Enter your email" required>
+            <button class="btn">Sign Up</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
